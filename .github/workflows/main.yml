@@ -33,9 +33,13 @@ jobs:
     - name: Copy language to dist
       run: cp translation/* dist/
 
-    - name: Deploy mian to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+
+    - name: Upload static files as artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        github_token: ${{ secrets.GH_TOKEN }}
-        publish_dir: ./dist
-        destination_dir: main
+        path: dist/
+
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
