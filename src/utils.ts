@@ -4,9 +4,9 @@ import { MODULES } from "Modules/ModulesDict";
 import { CHANGELOG, ChangeType } from "changeLogData";
 
 //   VVVVVVVVVVVVVVVVVVVVVVVVVVVVV  ----用得到的常数---- VVVVVVVVVVVVVVVVVVVVVVV    //
-export const ModRef = "https://iceriny.github.io/XiaoSuActivity/"
+export const ModRef = "https://inkerbot.github.io/XiaoSuActivity/"
 export const VerType = DEBUG ? "dev/" : "main/";
-export const RealRef = `${ModRef}${VerType}`
+export const RealRef = `${ModRef}`
 export const CSShref = `${RealRef}XSActivityStyle.css`;
 export const EmojiWorkerRef = `${RealRef}emojiWorkers.js`;
 
