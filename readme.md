@@ -15,11 +15,11 @@
 **测试版非必要请勿使用，编程水平有限，边学边写。测试版仅作为自己的实验室，出现bug的概率相当高!**
 
 - Tampermonkey
-  - 正式版: https://iceriny.github.io/XiaoSuActivity/main/userLoad.user.js
-  - 测试版: https://iceriny.github.io/XiaoSuActivity/dev/userLoad_dev.user.js
+  - 正式版: https://inkerbot.github.io/XiaoSuActivity/main/userLoad.user.js
+  - 测试版: https://inkerbot.github.io/XiaoSuActivity/dev/userLoad_dev.user.js
 - 书签:
 ```code
-javascript:(()=>{fetch('https://iceriny.github.io/XiaoSuActivity/main/userLoad.user.js').then(r=>r.text()).then(r=>eval(r));})();
+javascript:(()=>{fetch('https://inkerbot.github.io/XiaoSuActivity/main/userLoad.user.js').then(r=>r.text()).then(r=>eval(r));})();
 ```
 
 ## 翻译协作说明: 
