@@ -9,17 +9,18 @@
   - ~~导出聊天室聊天记录的命令 。- [具体帮助输入:`/xsa`]~~
   - 以上功能并不是全部功能 请查看[Trello](https://trello.com/b/wIleQnF7/xiaosuactivity)
 
+## Razor fork
+修复了在R122无法使用的bug
 
 ## 安装方法:
 **推荐使用Tampermonkey插件**
 **测试版非必要请勿使用，编程水平有限，边学边写。测试版仅作为自己的实验室，出现bug的概率相当高!**
 
 - Tampermonkey
-  - 正式版: https://inkerbot.github.io/XiaoSuActivity/main/userLoad.user.js
-  - 测试版: https://inkerbot.github.io/XiaoSuActivity/dev/userLoad_dev.user.js
+  - 正式版: https://inkerbot.github.io/XiaoSuActivity/userLoad.user.js
 - 书签:
 ```code
-javascript:(()=>{fetch('https://inkerbot.github.io/XiaoSuActivity/main/userLoad.user.js').then(r=>r.text()).then(r=>eval(r));})();
+javascript:(()=>{fetch('https://inkerbot.github.io/XiaoSuActivity/userLoad.user.js').then(r=>r.text()).then(r=>eval(r));})();
 ```
 
 ## 翻译协作说明: 
